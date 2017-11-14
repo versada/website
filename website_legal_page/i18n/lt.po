@@ -94,8 +94,8 @@ msgstr "Slapukai yra nedideli failai, kuriuos mūsų serveris išsiunčia į jū
 #: model:ir.ui.view,arch_db:website_legal_page.advice
 #: model:ir.ui.view,arch_db:website_legal_page.privacy-policy
 #: model:ir.ui.view,arch_db:website_legal_page.terms-of-use
-msgid "El. pašto adresas:"
-msgstr ""
+msgid "Email address:"
+msgstr "El. pašto adresas:"
 
 #. module: website_legal_page
 #: model:ir.ui.view,arch_db:website_legal_page.advice
@@ -247,7 +247,7 @@ msgstr "Visos naudojimosi sąlygos yra reglamentuojamos pagal Lietuvos įstatymu
 #. module: website_legal_page
 #: model:ir.ui.view,arch_db:website_legal_page.advice
 msgid "VAT number:"
-msgstr "PVM mokėtojo kodas"
+msgstr "PVM mokėtojo kodas:"
 
 #. module: website_legal_page
 #: model:ir.ui.view,arch_db:website_legal_page.terms-of-use
@@ -321,20 +321,19 @@ msgstr "Autorinės teisės"
 #. module: website_legal_page
 #: model:ir.ui.view,arch_db:website_legal_page.acceptance_full
 msgid "of this website."
-msgstr ""
+msgstr "šios svetainės"
 
 #. module: website_legal_page
 #: model:ir.ui.view,arch_db:website_legal_page.acceptance_full
 msgid "privacy policy"
-msgstr ""
+msgstr "privatumo politika"
 
 #. module: website_legal_page
 #: model:ir.ui.view,arch_db:website_legal_page.acceptance_full
 msgid "terms of use"
-msgstr ""
+msgstr "naudojimosi sąlygos"
 
 #. module: website_legal_page
 #: model:ir.ui.view,arch_db:website_legal_page.terms-of-use
 msgid "website (the \"Service\") operated by ​"
 msgstr " - "
-
