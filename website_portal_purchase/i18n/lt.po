@@ -26,6 +26,10 @@ msgid ""
 "                                        Done\n"
 "                                    </span>"
 msgstr ""
+"<span class=\"label label-default\">\n"
+"                                        <i class=\"fa fa-fw fa-check\"/>\n"
+"                                        Atlikta\n"
+"                                    </span>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
@@ -35,6 +39,10 @@ msgid ""
 "                                                                Waiting\n"
 "                                                            </span>"
 msgstr ""
+"<span class=\"label label-info supplier_orders_label_text_align\">\n"
+"                                                                <i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                                                                Laukiama\n"
+"                                                            </span>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.order_list
@@ -44,6 +52,10 @@ msgid ""
 "                                        Invoiced\n"
 "                                    </span>"
 msgstr ""
+"<span class=\"label label-info\">\n"
+"                                        <i class=\"fa fa-fw fa-pencil-square-o\"/>\n"
+"                                        Sąskaitos faktūros\n"
+"                                    </span>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
@@ -53,6 +65,10 @@ msgid ""
 "                                                                Paid\n"
 "                                                            </span>"
 msgstr ""
+"<span class=\"label label-success supplier_orders_label_text_align\">\n"
+"                                                                <i class=\"fa fa-fw fa-check\"/>\n"
+"                                                                Apmokėta\n"
+"                                                            </span>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
@@ -62,6 +78,10 @@ msgid ""
 "                                                    Not invoiced yet\n"
 "                                                </span>"
 msgstr ""
+"<span class=\"label label-warning supplier_orders_label_text_align\">\n"
+"                                                    <i class=\"fa fa-fw fa-pencil-square-o\"/>\n"
+"                                                    Sąskaita faktūra neišrašyta\n"
+"                                                </span>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
@@ -71,61 +91,65 @@ msgid ""
 "                                                    Not received yet\n"
 "                                                </span>"
 msgstr ""
+"<span class=\"label label-warning supplier_orders_label_text_align\">\n"
+"                                                    <i class=\"fa fa-fw fa-truck\"/>\n"
+"                                                    Dar negauta\n"
+"                                                </span>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "<strong>Contact</strong>"
-msgstr ""
+msgstr "<strong>Kontaktas</strong>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "<strong>Date:</strong>"
-msgstr ""
+msgstr "<strong>Data:</strong>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "<strong>Invoices</strong>"
-msgstr ""
+msgstr "<strong>Sąskaitos faktūros</strong>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "<strong>Invoicing Address</strong>"
-msgstr ""
+msgstr "<strong>Sąskaitos faktūros adresas</strong>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "<strong>Product</strong>"
-msgstr ""
+msgstr "<strong>Produktas</strong>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "<strong>Quantity</strong>"
-msgstr ""
+msgstr "<strong>Kiekis</strong>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "<strong>Shipping Address</strong>"
-msgstr ""
+msgstr "<strong>Pristatymo adresas</strong>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "<strong>Subtotal</strong>"
-msgstr ""
+msgstr "<strong>Tarpinė suma</strong>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "<strong>Total:</strong>"
-msgstr ""
+msgstr "<strong>Viso:</strong>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "<strong>Unit Price</strong>"
-msgstr ""
+msgstr "<strong>Kaina</strong>"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.purchase_backend_link
 msgid "Access the complete Purchase application"
-msgstr ""
+msgstr "Pereiti į pilną pirkimų aplikacija"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.order_list
@@ -137,93 +161,93 @@ msgstr "Data"
 msgid ""
 "If you wish to access the complete application to manage your supplier "
 "orders, you can follow"
-msgstr ""
+msgstr "Jeigu norite pereiti į pilną aplikaciją ir tvarkyti jūsų tiekėjo užsakymus, spauskite"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "My Orders"
-msgstr ""
+msgstr "Mano užsakymai"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "My Quotes"
-msgstr ""
+msgstr "Mano komerciniai pasiūlymai"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "Order"
-msgstr ""
+msgstr "Užsakymas"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.portal_my_orders
 msgid "Purchase Order #"
-msgstr ""
+msgstr "Pirkimo užsakymas #"
 
 #. module: website_portal_purchase
 #: model:ir.actions.act_window,name:website_portal_purchase.action_orders_portal
 msgid "Purchase Orders"
-msgstr ""
+msgstr "Pirkimo užsakymai"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "Quotation"
-msgstr ""
+msgstr "Komercinis pasiūlymas"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.portal_my_quotations
 msgid "Quotation #"
-msgstr ""
+msgstr "Komercinis pasiūlymas #"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.layout_orders
 msgid "Supplier Orders"
-msgstr ""
+msgstr "Tiekėjo užsakymai"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.layout_quotes
 msgid "Supplier Quotes"
-msgstr ""
+msgstr "Tiekėjo komerciniai pasiūlymai"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "Taxes:"
-msgstr ""
+msgstr "Mokesčiai:"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.home_orders
 #: model:ir.ui.view,arch_db:website_portal_purchase.portal_my_orders
 msgid "There are currently no supplier orders for your account."
-msgstr ""
+msgstr "Šiuo metu jūsų paskyrai nėra tiekėjo užsakymų."
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.home_quotes
 #: model:ir.ui.view,arch_db:website_portal_purchase.portal_my_quotations
 msgid "There are currently no supplier quotes for your account."
-msgstr ""
+msgstr "Šiuo metu jūsų paskyrai nėra tiekėjo komercinių pasiūlymų."
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.order_list
 msgid "Total"
-msgstr ""
+msgstr "Viso"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.orders_followup
 msgid "Untaxed Amount:"
-msgstr ""
+msgstr "Suma be mokesčių:"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.home_orders
 #: model:ir.ui.view,arch_db:website_portal_purchase.portal_my_orders
 msgid "Your Supplier Orders"
-msgstr ""
+msgstr "Jūsų tiekėjo užsakymai"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.home_quotes
 #: model:ir.ui.view,arch_db:website_portal_purchase.portal_my_quotations
 msgid "Your Supplier Quotes"
-msgstr ""
+msgstr "Jūsų tiekėjo komerciniai pasiūlymai"
 
 #. module: website_portal_purchase
 #: model:ir.ui.view,arch_db:website_portal_purchase.purchases_backend_access
 msgid "this link"
-msgstr ""
+msgstr "šią nuorodą"
