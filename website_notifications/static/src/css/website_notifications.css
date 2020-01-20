@@ -1,0 +1,5 @@
+/* Removes jump to top when opening a prompt/popup */
+/* Credit: http://stackoverflow.com/a/21881894 */
+body.modal-open {
+    overflow: visible;
+}

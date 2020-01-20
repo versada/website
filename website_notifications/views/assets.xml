@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<template id="assets_frontend" inherit_id="website.assets_frontend" name="Website Notifications Assets">
+    <xpath expr="." position="inside">
+        <link rel="stylesheet" href="/website_notifications/static/lib/animate.css/css/animate.css"/>
+        <script type="text/javascript" src="/website_notifications/static/lib/bootstrap-notify/js/bootstrap-notify.min.js"></script>
+        <link rel="stylesheet" href="/website_notifications/static/src/css/website_notifications.css"/>
+        <script type="text/javascript" src="/website_notifications/static/src/js/website_notifications.js"></script>
+    </xpath>
+</template>
+
+</odoo>

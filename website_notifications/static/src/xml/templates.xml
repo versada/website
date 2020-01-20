@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+<t t-name="website_notifications.dialog">
+    <t t-call="website.modal_base">
+        <span t-if="message">
+            <section>
+                <t t-esc="message"/>
+            </section>
+        </span>
+    </t>
+</t>
+
+</templates>
